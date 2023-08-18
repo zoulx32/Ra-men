@@ -1,0 +1,166 @@
+{
+  "layer": "top",
+  "position": "top",
+  /*"mode": "dock",*/
+  "height": 0,
+  "modules-left": [
+    "wlr/workspaces",
+    "custom/player"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "network",
+    "idle_inhibitor",
+    "cpu",
+    // "temperature",
+    "memory",
+    "backlight",
+    "pulseaudio",
+    "battery"
+  ],
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "format": "{icon}",
+    // "format-icons": {
+    //   "1": "🌐",
+    //   // "2": "",
+    //   "10": "",
+    //   "urgent": "",
+    //   "active": "",
+    //   "default": ""
+    // },
+    "sort-by-number": true
+  },
+  // "hyprland/window": {
+  //   "format": "{}",
+  //     },
+  // "wlr/taskbar": {
+  // "format": "{icon}",
+  // "icon-size": 20,
+  // "tooltip-format": "{title}",
+  //     "active-first":true,
+  // "on-click": "activate",
+  // "on-click-middle": "close",
+  // "app_ids-mapping": {
+  //   "firefoxdeveloperedition": "firefox-developer-edition"
+  // }
+  // },
+  "custom/player": {
+    "exec": "/usr/bin/python3 ~/scripts/waybar/player.py",
+    "format": "Playing :    {}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "on-click": "$HOME/scripts/hyprland/eye.sh",
+    "format-icons": {
+      "activated": " 👁 ",
+      "deactivated": " 👁 "
+    }
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 5
+  },
+  "cpu": {
+    "format": "  {usage}",
+    "tooltip": true,
+    "on-click": "alacritty -t btop -e btop --utf-force"
+  },
+  "memory": {
+    "format": "{used}  🏔️"
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C {icon}",
+    "format": "{temperatureC}°C",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{icon}    {capacity}",
+    "format-charging": "⚡   {capacity}",
+    "format-plugged": "⚡   {capacity}",
+    "format-alt": "{time} {icon} ",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "clock": {
+    "interval": 1,
+    "format": "{:%H:%M     %a %d %B}",
+    // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "on-click": "alacritty -t clock -e tty-clock -sb -C 4 & sleep 1.5 && pkill clock",
+    "on-click-right": "$HOME/scripts/waybar/wallpaper.sh",
+    "on-click-middle": "alacritty -T fast -e fast"
+  },
+  "network": {
+    "format-wifi": "   {essid} ",
+    "format-ethernet": " {essid}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "! Disconnected",
+    "tooltip-format-wifi": "{signalStrength}% | ⬇ {bandwidthDownBits} ⬆ {bandwidthUpBits} | {ipaddr}/{cidr}",
+    "on-click": "alacritty -t nmtui -e nmtui"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}  {percent}",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ],
+    // "format-icons": [
+    //   "🌌",
+    //   "",
+    //   "",
+    //   "",
+    //   "❄️",
+    //   "🪩"
+    // ],
+    "on-scroll-down": "brightnessctl set 1%+",
+    "on-scroll-up": "brightnessctl set 1%-",
+    "min-length": 5
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}",
+    "format-muted": "  sssh..",
+    "on-click": "pavucontrol",
+    "scroll-step": 1,
+    "format-icons": {
+      "headphone": "🎐",
+      "hands-free": "🎐",
+      "headset": "🎐",
+      "phone": "📞",
+      "portable": "📞",
+      "car": "",
+      "default": [
+        "☁️",
+        "🌧️",
+        "",
+        "🌩️",
+        ""
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+* {
+  border: none;
+  font-family: comfortaa;
+  font-weight: 800;
+  /* font-size: 13.5px; */
+}
+
+window#waybar {
+  background: transparent;
+}
+
+
+tooltip {
+  color: black;
+  background-color : rgba(200, 200, 230,0.9);
+  border-radius: 10px;
+}
+
+
+#cpu,#memory,#custom-player,#idle_inhibitor,#temperature, #custom-caffeine, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #backlight, #window { 
+  margin-top: 2px;
+  /* padding-top: 0px; */
+}
+
+
+/* text-align: center; */
+/* } */
+#workspaces{
+  /* font-family: Poppins; */
+  background-color : rgba(0, 0, 0,0.1);
+  margin-left: 5px;
+  border-radius: 80px;
+  border: 0.3px solid rgba(170, 170, 170,0.5);
+  /* font-weight: 600; */
+}
+
+#workspaces button {
+  color: white;
+  opacity: 0.7;
+  margin: 0px 0 0 0px; 
+  padding: 0px 9px;
+  transition: all 0.5s ease-in-out;
+  border: 0.1px solid rgba(0,0,0,0.2);
+  /* border-color: cyan; */
+  /* border-width: 0.2px; */
+
+  
+}
+
+#workspaces button.active {
+  transition: all 0.5s ease-in-out;
+  /* border: 0.1px solid cyan; */
+  opacity: 1;
+  /* border-radius: 8px; */
+  color: white;
+  background-color : rgba(170, 170, 170,0.2);
+  border-radius: 80px;
+  /* box-shadow: rgba(17, 17, 27, 0.2) 0 0 3 2px; */
+
+}
+
+#custom-player{
+  margin: 0 8px;
+  opacity : 0.95;
+}
+
+#clock {
+  color: white;
+  background-color : rgba(0, 0, 0,0.2);
+  /* box-shadow: rgba(17, 17, 27, 0.2) 0 0 3 2px; */
+  border-radius: 8px;
+  padding: 2px 8px 0px 8px;
+  /* border: 0.1px solid cyan; */
+}
+
+#tray {
+  background-color : rgba(170, 170, 170,0.3);
+  margin-right: 10px;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+
+#network {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 0.4px solid rgba(170, 170, 170,0.6);
+  border-radius: 90px;
+  padding: 0 8px;
+
+}
+
+#idle_inhibitor {
+  margin: 0 2px;
+  color:  rgba(170, 170, 170,0.4);
+  opacity: 0.7;
+}
+#idle_inhibitor.activated {
+  transition: all 1.5s ease-in-out;
+  color: white;
+  opacity: 1;
+}
+
+#cpu {
+  padding: 0 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 0.3px solid rgba(170, 170, 170,0.6);
+  border-radius: 80px 0 0 80px;
+  border-right: none;
+  opacity: 0.9;
+}
+
+#memory {
+  padding: 0 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 0.3px solid rgba(170, 170, 170,0.6);
+  border-radius: 0 80px 80px 0;
+  border-left: none;
+  opacity: 0.9;
+
+}
+
+#backlight {
+  margin-left: 5px ;
+  padding: 0 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 0.3px solid rgba(170, 170, 170,0.6);
+  border-radius: 80px 0 0 80px;
+  border-right: none;
+  opacity: 0.9;
+}
+
+#pulseaudio {
+  padding: 0 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 0.3px solid rgba(170, 170, 170,0.6);
+  border-radius: 0 80px 80px 0;
+  border-left: none;
+  opacity: 0.9;
+
+}
+
+#battery {
+  color: white;
+  margin-left: 5px;
+  margin-right: 3px;
+  padding: 0 10px;
+  border-radius: 80px;
+  background-color : rgba(170, 170, 170,0.2);
+}
+
+#battery.plugged {
+  transition: all 1s ease-in-out;
+  border: 0.2px solid rgba(170, 170, 170,0.6);
+  background: radial-gradient(
+    /* 60deg, */
+    rgba(33, 234, 150,0.5),
+    transparent
+    /* rgba(170, 170, 170,0.2) */
+  );
+
+}
