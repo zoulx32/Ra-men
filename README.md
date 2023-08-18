@@ -1,9 +1,4 @@
- ![img](assets/wmb/ramen.gif)
-                                                
-  88bd88b d888b8b     88bd8b,d88b  d8888b  88bd88b 
-  88P'  `d8P' ?88     88P'`?8P'?8bd8b_,dP  88P' ?8b
- d88     88b  ,88b    d88  d88  88P88b     d88   88P
-d88'     `?88P'`88b   d88' d88'  88b`?888P'd88'   88b
+ ![img](wmb/ramen.png)
                                                   
 An elegant hyprland config coming with less bloat, smooth workflow and aesthetic black theme 
 
@@ -17,7 +12,7 @@ An elegant hyprland config coming with less bloat, smooth workflow and aesthetic
 ___
 <div align="">
 
-Install
+Install Scripts & other
 ===========
 
  
@@ -25,8 +20,6 @@ Install
     
 
 </div>
-
-___
 
 
 <br>
