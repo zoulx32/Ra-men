@@ -60,8 +60,8 @@
     "format": "{icon}",
     "on-click": "$HOME/scripts/hyprland/eye.sh",
     "format-icons": {
-      "activated": " 👁 ",
-      "deactivated": " 👁 "
+      "activated": "  ",
+      "deactivated": "  "
     }
   },
   "tray": {
@@ -74,7 +74,7 @@
     "on-click": "alacritty -t btop -e btop --utf-force"
   },
   "memory": {
-    "format": "{used}  🏔️"
+    "format": "{used}  "
   },
   "temperature": {
     // "thermal-zone": 2,
@@ -95,8 +95,8 @@
       "critical": 10
     },
     "format": "{icon}    {capacity}",
-    "format-charging": "⚡   {capacity}",
-    "format-plugged": "⚡   {capacity}",
+    "format-charging": "   {capacity}",
+    "format-plugged": "   {capacity}",
     "format-alt": "{time} {icon} ",
     "format-icons": [
       "",
@@ -136,7 +136,7 @@
     //   "",
     //   "",
     //   "❄️",
-    //   "🪩"
+    //   ""
     // ],
     "on-scroll-down": "brightnessctl set 1%+",
     "on-scroll-up": "brightnessctl set 1%-",
@@ -148,18 +148,18 @@
     "on-click": "pavucontrol",
     "scroll-step": 1,
     "format-icons": {
-      "headphone": "🎐",
-      "hands-free": "🎐",
-      "headset": "🎐",
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
       "phone": "📞",
       "portable": "📞",
       "car": "",
       "default": [
-        "☁️",
-        "🌧️",
-        "",
-        "🌩️",
-        ""
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   }
