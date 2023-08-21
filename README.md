@@ -47,7 +47,7 @@ hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlro
 
 ## Basic keybindings
 
-> **Note** This project may vary over-time.
+> **Note** applications that are only necessary are included in the base-installer scripts.
 
 #### Apps
 
@@ -83,13 +83,18 @@ hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlro
 ```
 sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack
 ```
->stop the PulseAudio services and enable pipewire services: 
+>stop the PulseAudio services and enable pipewire services:
+
+>first method
+
 ```
 systemctl --user stop pulseaudio.socket
 systemctl --user stop pulseaudio.service
 systemctl --user disable pulseaudio.socket
 systemctl --user disable pulseaudio.service
-
+```
+>second method 
+```
 systemctl --user enable pipewire.socket
 systemctl --user enable pipewire.service
 systemctl --user start pipewire.socket
