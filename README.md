@@ -1,4 +1,4 @@
- ![img](wmb/ramen.png)
+![img](wmb/ramen.gif) 
                                                   
 An elegant hyprland config coming with less bloat, smooth workflow and aesthetic black theme 
 
@@ -6,7 +6,7 @@ An elegant hyprland config coming with less bloat, smooth workflow and aesthetic
 - I just usually forget things so if you are new to Window managers this space will save you !
 - vimrc without bloated plugins.
 
-
+</div>
 <br>
 
 ___
@@ -14,7 +14,11 @@ ___
 
 Install Scripts & other
 ===========
-
+<div align="left">
+  <tr>
+    <th><img src="http://wiki.installgentoo.com/images/f/f9/Arch-linux-logo.png" alt="logo" width=15> Arch </th>
+    <td><code>bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Ra-men/scripts/install.sh)</code></td>
+  </tr>
  
 <br>
     
@@ -27,7 +31,6 @@ Install Scripts & other
 <br>
 
 ## Essential packages :
-
 ```
 hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlroots pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber xdg-desktop-portal-wlr grim slurp sddm 
 
@@ -36,7 +39,7 @@ hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlro
 
 ## Additional packages :
 ```
-      alacritty thunar pavucontrol bluez lxappearance mpv mako neofetch btop swaybg swayidle swww 
+      alacritty thunar pavucontrol bluez mpv mako neofetch btop swaybg swayidle swww lxappearance  
 ```
 
 <br>
@@ -106,12 +109,11 @@ systemctl --user start pipewire-pulse.service
 
 ```
 
->screen sharing issue `OBS`
+>screen sharing issue `OBS` install this pkg
 
 ```
-    sudo pacman -S xdg-desktop-portal-hyprland 
-     
+    sudo pacman -S xdg-desktop-portal-hyprland  
 ```
-
+or `xdg-desktop-portal-wlr` reboot .. try [wiki](https://wiki.archlinux.org/title/XDG_Desktop_Portal) for better understanding!
 
 
