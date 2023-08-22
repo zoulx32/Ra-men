@@ -1,4 +1,4 @@
-![img](wmb/ramen.gif) 
+![img](wmb/ra.mp4) 
                                                   
 An elegant hyprland config coming with less bloat, smooth workflow and aesthetic black theme 
 
