@@ -122,16 +122,16 @@ window:
   #multiplier: 3
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
-  #normal:
+  normal:
     # Font family
     #
     # Default:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: monospace
+    family: JetBrainsMono
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -170,7 +170,7 @@ window:
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 11.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -199,9 +199,9 @@ window:
 # Colors (Tomorrow Night)
 #colors:
   # Default colors
-  #primary:
-  #  background: '#1d1f21'
-  #  foreground: '#c5c8c6'
+  # primary:
+  # background: '#1d1f21'
+  # foreground: '#d0e0f0'
 
     # Bright and dim foreground colors
     #
