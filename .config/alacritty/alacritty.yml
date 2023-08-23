@@ -201,7 +201,7 @@ font:
   # Default colors
   # primary:
   # background: '#1d1f21'
-  # foreground: '#d0e0f0'
+   #foreground: '#d0e0f0'
 
     # Bright and dim foreground colors
     #
@@ -392,18 +392,18 @@ font:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 
   # When set to `true`, selected text will be copied to the primary clipboard.
-  #save_to_clipboard: false
+  save_to_clipboard: true
 
-#cursor:
-  # Cursor style
-  #style:
+cursor:
+    #Cursor style
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
-    #   - _ Underline
+    #    - _ Underline
     #   - | Beam
-    #shape: Block
+    shape: Underline
 
     # Cursor blinking state
     #
@@ -412,7 +412,7 @@ font:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    #blinking: Off
+    blinking: Always
 
   # Vi mode cursor style
   #
