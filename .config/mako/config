@@ -1,0 +1,31 @@
+sort=-time
+layer=overlay
+width=400
+border-size=0
+border-radius=10
+max-visible=5
+default-timeout=3000
+ignore-timeout=0
+font=JetBrainsMono 11
+text-alignment=center
+padding=10
+margin=0,0,8,0
+outer-margin=10,0,0,0
+anchor=top-center
+border-color=#00000010
+background-color=#ffffff15
+text-color=#ffffff
+progress-color=over #302D41
+
+
+[urgency=critical]
+border-color=#BB1122
+anchor=center
+border-size=2
+default-timeout=5000
+
+[urgency=low]
+border-size=1
+border-color=#03a7ff
+anchor=bottom-center
+outer-margin=10,0,50,0

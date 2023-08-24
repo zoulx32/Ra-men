@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Black-Is-The-New-Black-GTK
+Comment=Black-Is-The-New-Black-GTK
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Black-Is-The-New-Black-GTK
+MetacityTheme=Black-Is-The-New-Black-GTK
+IconTheme=Paper
+CursorTheme=Paper
+ButtonLayout=menu:minimize,maximize,close
