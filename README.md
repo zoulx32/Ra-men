@@ -1,4 +1,4 @@
-![img](wmb/ra.gif) 
+![img](wmb/ra-men.png) 
                                                   
 An elegant hyprland config coming with less bloat, smooth workflow and aesthetic black theme 
 
