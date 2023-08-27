@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/mittens'
+let g:netrw_dirhist_0='/home/mittens/.local/share/application'
+let g:netrw_dirhist_9='/home/mittens/.config/dunst'
+let g:netrw_dirhist_8='/home/mittens'
+let g:netrw_dirhist_7='/home/mittens/.config/dunst'
+let g:netrw_dirhist_6='/home/mittens/.config/swaylock'
+let g:netrw_dirhist_5='/home/mittens/.config/swayidle'
+let g:netrw_dirhist_4='/home/mittens/.config/hypr'
+let g:netrw_dirhist_3='/home/mittens/.config/mako'
+let g:netrw_dirhist_2='/home/mittens/.config/hypr'
