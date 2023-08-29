@@ -121,4 +121,11 @@ systemctl --user start pipewire-pulse.service
 ```
 or `xdg-desktop-portal-wlr` reboot .. try [wiki](https://wiki.archlinux.org/title/XDG_Desktop_Portal) for better understanding!
 
+**will be posting troubleshooting & other utilities if you really love nerding out!** 
+
+## Support Me !
+[![img](wmb/logo/odysee.png)](https://odysee.com/@pegasx:d/hyprlandfirstrice:b)
+
+
+
 
