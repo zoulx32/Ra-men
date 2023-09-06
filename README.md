@@ -16,6 +16,11 @@ ___
 Install Scripts & other
 ===========
 >Arch install 
+> [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/post-install.sh)
+ 
+**If you have arch already installed your (way) then only refer to hyprland script otherwise it's automated !** 
+<br>
+
 <div align="left">
   <tr>
     <th><img src="http://wiki.installgentoo.com/images/f/f9/Arch-linux-logo.png" alt="logo" width=15> Arch </th>
@@ -24,9 +29,7 @@ Install Scripts & other
 
 <br>
 
-> [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/post-install.sh)
- 
-**If you have arch already installed your (way) then only refer to hyprland script otherwise it's automated !** 
+
     
 </div>
 
