@@ -4,7 +4,7 @@
   /*"mode": "dock",*/
   "height": 0,
   "modules-left": [
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "custom/player"
   ],
   "modules-center": [
@@ -50,12 +50,13 @@
   //   "firefoxdeveloperedition": "firefox-developer-edition"
   // }
   // },
-  "custom/player": {
-    "exec": "/usr/bin/python3 ~/scripts/waybar/player.py",
-    "format": "Playing :    {}",
-    "return-type": "json",
-    "on-click": "playerctl play-pause"
-  },
+//  "custom/player": {
+//    "exec": "/usr/bin/python3 ~/scripts/waybar/player.py",
+//    "format": "Playing :    {}",
+//    "return-type": "json",
+//    "on-click": "playerctl play-pause"
+//},
+
   "idle_inhibitor": {
     "format": "{icon}",
     "on-click": "$HOME/scripts/hyprland/eye.sh",
