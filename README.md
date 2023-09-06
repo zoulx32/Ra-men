@@ -1,4 +1,5 @@
 ![img](wmb/ra-men.png) 
+![img](wmb/ra-2.png) 
                                                   
 An elegant hyprland config coming with less bloat, smooth workflow and aesthetic black theme 
 
@@ -14,15 +15,19 @@ ___
 
 Install Scripts & other
 ===========
+>Arch install 
 <div align="left">
   <tr>
     <th><img src="http://wiki.installgentoo.com/images/f/f9/Arch-linux-logo.png" alt="logo" width=15> Arch </th>
-    <td><code>bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Ra-men/scripts/install.sh)</code></td>
+    <td><code>bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Scripts/arch/arch-install.sh)</code></td>
   </tr>
- 
-<br>
-    
 
+<br>
+
+> [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/post-install.sh)
+ 
+**If you have arch already installed your (way) then only refer to hyprland script otherwise it's automated !** 
+    
 </div>
 
 
