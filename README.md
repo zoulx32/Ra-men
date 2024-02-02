@@ -13,42 +13,77 @@ An elegant hyprland config coming with less bloat, smooth workflow and aesthetic
 ___
 <div align="">
 
-Install Scripts & other
+Install Scripts & Wiki
 ===========
->Arch install 
-> [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/post-install.sh)
+>[Arch install](https://github.com/Mr-Mittens/Scripts/tree/main/arch) &&
+> [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/hyper)
  
-**If you have arch already installed your (way) then only refer to hyprland script otherwise it's automated !** 
+**If you have arch already installed your (way) then only refer to hyprland script !** 
 <br>
 
 <div align="left">
-  <tr>
-    <th><img src="http://wiki.installgentoo.com/images/f/f9/Arch-linux-logo.png" alt="logo" width=15> Arch </th>
-    <td><code>bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Scripts/arch/arch-install.sh)</code></td>
-  </tr>
+  <details>
+    <summary><strong>Arch Installation Script </strong></summary>
+    <p>
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/arch/basebuild) && curl -sO https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/arch/chrootbuild
+```
 
 <br>
 
+make the bash executable and run.(make your own tweaks before running it !)
 
-    
+```
+chmod +x basebuild && ./basebuild
+
+```
+
+> after the installation system will reboot and you can login. (you need to follow hyprland installation next)    
+
 </div>
 
 
-<br>
+
+<div align="left">
+  <details>
+    <summary><strong>Hyprland Script </strong></summary>
+    <p>
+
+```bash
+curl -sO https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/hyprland/hyper
+
+```
 
 <br>
 
-## Essential packages :
-```
-hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlroots pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber xdg-desktop-portal-wlr grim slurp sddm 
+make the bash executable and run.(make your own tweaks before running it !)
 
 ```
+chmod +x hyper && ./hyper
+
+```
+
+> just install only necessary items, these are my preferences you can tweak your likes & also im open for suggestions..   
+
+</div>
+
+
+<div align="left">
+  <details>
+    <summary><strong> Ref- packages </strong></summary>
+    <p>
+
+> Just install what you need manually you can opt for better packages.(Don't just install packages from a random script!) 
+```
+hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlroots pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber xdg-desktop-portal-wlr grim slurp sddm alacritty thunar pavucontrol bluez mpv mako neofetch btop swaybg swayidle swww lxappearance  
+
+```
+</div>
+
 <br>
 
-## Additional packages :
-```
-      alacritty thunar pavucontrol bluez mpv mako neofetch btop swaybg swayidle swww lxappearance  
-```
+
 
 <br>
 
