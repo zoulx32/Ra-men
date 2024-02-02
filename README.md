@@ -13,12 +13,14 @@ An elegant hyprland config coming with less bloat, smooth workflow and aesthetic
 ___
 <div align="">
 
-Install Scripts & Wiki
+Install Scripts & Wiki 
 ===========
->[Arch install](https://github.com/Mr-Mittens/Scripts/tree/main/arch) &&
+>[Arch install](https://github.com/Space-Legion/space-legion.github.io/blob/main/arch) &&
 > [Hyprland Script](https://github.com/Mr-Mittens/Scripts/blob/main/hyprland/hyper)
  
 **If you have arch already installed your (way) then only refer to hyprland script !** 
+
+**Follow these three points till end !**
 <br>
 
 <div align="left">
@@ -27,7 +29,7 @@ Install Scripts & Wiki
     <p>
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/arch/basebuild) && curl -sO https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/arch/chrootbuild
+curl -LO spacelegion.org/arch
 ```
 
 <br>
@@ -35,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/Mr-Mittens/Scripts/main/arch/ba
 make the bash executable and run.(make your own tweaks before running it !)
 
 ```
-chmod +x basebuild && ./basebuild
+chmod +x arch && ./arch
 
 ```
 
@@ -74,11 +76,20 @@ chmod +x hyper && ./hyper
     <summary><strong> Ref- packages </strong></summary>
     <p>
 
-> Just install what you need manually you can opt for better packages.(Don't just install packages from a random script!) 
+> Just install what you need manually you can opt for better packages.(Don't just install packages from a random script!)
 ```
 hyprland hyprpaper vim wayland-protocols waybar-hyprland brightnessctl make wlroots pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber xdg-desktop-portal-wlr grim slurp sddm alacritty thunar pavucontrol bluez mpv mako neofetch btop swaybg swayidle swww lxappearance  
 
 ```
+> After packages are installed clone this repo cd into Ra-men and
+
+```mv .config ~/.```
+
+also 
+
+``` mv ~/ramen/home/* ~/```
+
+
 </div>
 
 <br>
